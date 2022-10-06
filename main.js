@@ -98,5 +98,5 @@ function animate() {
   renderer.render(scene, camera);
 }
 
-document.getElementById('email').innerHTML = '<a href="mailto:' + e + '">' + e + '</a>';
+document.getElementById('email').innerHTML = '<a href="mailto:' + e + '">✉️ ' + e + '</a>';
 animate();
